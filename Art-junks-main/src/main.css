@@ -1,0 +1,409 @@
+@media screen and (max-width: 576px) {
+    body{
+        width: 576px;
+    }
+
+    .mobile{
+        width: 576px;
+    }
+    #header {
+        width: 576px;
+    }
+
+    .bottom {
+        width: 576px;
+    }
+
+    .art-reads{
+        width: 576px;
+        align-items: center;
+        background-color: #FFFFFF;
+    }
+
+    .album{
+        background-color: #FFFFFF;  
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    body {
+        width: 768px;
+    }
+
+    #header {
+        width: 768px;
+    }
+
+    .art-reads {
+        width: 768px;
+        align-items: center;
+        background-color: #FFFFFF;
+        margin-left: 60px;
+    }
+
+    .navbar {
+        width: 980px;
+    }
+
+    .tablet-artjunks {
+        margin-left: 20px;
+    }
+
+    .navbar-toggler {
+        padding-right: 0px;
+    }
+
+    .album{
+        background-color: #FFFFFF;  
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        width: 992px;
+    }
+    #header {
+        width: 992px
+    }
+
+    .art-reads{
+        align-items: center;
+        padding-left: 100px;
+        background-color: #FFFFFF;
+    }
+
+    .album{
+        padding-left: 32px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width:992px) {
+    body {
+        width: 1440px;
+    }
+
+    #header {
+        width: 1440px;
+    }
+
+    .art-reads{
+        align-items: center;
+        background-color: #FFFFFF;
+    }
+
+    .album{
+        padding-left: 32px;
+        background-color: #FFFFFF;
+    }
+
+}
+
+.navbar{
+    --bs-navbar-toggler-icon-bg: url(108564673-hamburger-menu-web-icon-white-icon-with-shadow-on-transparent-background.webp);
+    
+}
+
+.navbar-toggler{
+    --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0);
+    --bs-navbar-toggler-focus-width: 0rem;
+    --bs-white: #fff;
+    --bs-navbar-color: rgba(var(--bs-white: #fff;), 0.65);
+}
+.tablet-art {
+    padding-left: 0px;
+}
+
+#header {
+    position: absolute;
+    z-index: 10;
+    /* overflow: hidden; */
+}
+
+body {
+    background-color:#FFFFFF;
+}
+
+.menu {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.Page-title {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.about {
+    color: #FFFFFF;
+}
+
+.list {
+    color: #FFFFFF;
+}
+
+.navbar-nav {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+item {
+    font-weight: 600;
+    padding-left: 20px;
+    padding-bottom: 3px;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.navbar-button {
+    font-family: Inter;
+    font-weight: 500;
+    text-align: center;
+    height: 42px;
+    width: 153px;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.mobile-desc {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 314px;
+
+}
+
+.mobile {
+    position: relative;
+    background: url(bg-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    height: 1024px;
+    width: 575px;
+    padding-left: 0%;
+    border-radius: 0px;
+}
+
+.mobile h1 {
+    font-family: Libre Caslon Display;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+/* .mobile h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 2.6em;
+    color: #dcdde1;
+    text-transform: uppercase;
+    font-weight: bold;
+} */
+
+.mobile p {
+    margin-top: 1em;
+    font-size: 16px;
+    padding: #ccc;
+    padding-bottom: 25px;
+}
+
+.tablet {
+    position: relative;
+    background: url(news-tablet-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    height: 1024px;
+    padding-left: 0%;
+    border-radius: 0px;
+    width: 992px;
+}
+
+.tablet h1 {
+    font-family: Libre Caslon Display;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 0%;
+    width: 600px;
+}
+
+.tablet p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.laptop {
+    position: relative;
+    background: url(desktop-Background.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: repeat-y;
+    width: 1440px;
+    height: 1024px;
+}
+
+.header-laptop {
+    padding: 100px 620px 328px 0px;
+    margin-left: 0px;
+}
+
+.laptop h1 {
+    font-family: Libre Caslon Display;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 99px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 748px;
+
+}
+
+.laptop p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 528px;
+}
+
+.publish-card {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    color: #B7B7B7;
+    padding: 35px 32px 28px 10px;
+}
+
+
+.card-text {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.Readmore-card {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500px;
+    line-height: 18px;
+    color: #D9852C;
+    text-decoration: none;
+    text-align: end;
+}
+
+.title-2 {
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.title-2-md {
+    font-size: 40px;
+
+}
+
+.title-2-lg{
+    padding-left: 0px;
+}
+
+.header-learn-more {
+    height: 42px;
+    width: 153px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.head {
+    font-family: Libre Caslon Display;
+    font-size: 50px;
+    font-weight: 400px;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 314px;
+    left: 0px;
+    top: 47px;
+    border-radius: nullpx;
+
+}
+
+.color-me {
+    color: #FFFFFF;
+
+}
+
+.block {
+    padding-top: 500px;
+    height: 15px;
+    width: 90px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+
+}
+
+.header-mobile {
+    padding-top: 140px;
+
+}
+
+.header-tablet {
+    padding-top: 130px;
+    padding-left: 0px;
+}
+
+.navbar-brand {
+    color: #FFFFFF;
+
+}
